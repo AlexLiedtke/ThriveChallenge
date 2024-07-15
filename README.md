@@ -25,8 +25,15 @@ Repository for a code challenge completed for Thrive.
 - **Case 4: Duplicate Company IDs**
   - Companies with duplicate IDs will be moved to `invalid_companies.json`.
   - `output.txt` will still generate successfully with the remaining valid data.
+ 
+- **Case 5: Everything works!**
+  - `output.txt` will generate, there will be no terminal warnings, and none of the log files will be updated!
 
 ### Other Notes:
+- Valid/Invalid are terms used here to denote whether data is in a state for the program to use it with full functionality for a "top up".
+
+- If a valid company has no valid active users, it's section will be disregarded from `output.txt`
+
 - The `send_top_up_email_to_user` method is a TODO stub to represent email functionality.
   - Modify or implement this method according to your email service requirements.
 
